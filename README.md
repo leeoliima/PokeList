@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h2 align="center">
+    <br>
+    <p align="center" style="font-weight: bold;"> 🚀 Projeto PokeList
+<p>
+</h2>
 
-## Getting Started
+<h1>Resumo</h1>
 
-First, run the development server:
+- A proposta foi criar um site de listagem de pokémons, através de cards e seus respectivos detalhes;
+ 
+- Esse projeto foi todo construido com Next.Js e TypeScript, onde teve como desafio, ter o primeiro contato com o framework Next.Js aliado ao TypeScript. Utilizando das facilidades do framework, tais como: rotas e rotas dinâmicas, tipagem do TypeScript, consumo de API e estilização por meio do styled-components.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+<h2>
+    <p style="font-weight: bold;">⭐ Requisitos do Projeto</p>
+</h2>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O projeto consiste nos seguintes requisitos:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### Requisitos
+<details> 
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- Renderizar os pokémons em cards
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Requisições da API
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Detalhes pela rota dinâmica do Next
 
-## Learn More
+- Estilização por meio do styled-components
+</details>
+<br/>
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<h2>
+    <br>
+    <p style="font-weight: bold;"> Link do projeto</p>
+</h2>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+ ### ➡  [PokeList](http://locallhost)
 
-## Deploy on Vercel
+ <br>
+    <p style="color: #D30404; font-weight: bold;"> 📸 Prints das Telas</p>
+</h2>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![image](https://user-images.githubusercontent.com/96210622/209735628-aa228962-a34d-4160-bbbc-7e10c08dca84.png)
+![image](https://user-images.githubusercontent.com/96210622/209735647-4cc24cd9-223e-493d-a9f9-1d692c930a51.png)
+![image](https://user-images.githubusercontent.com/96210622/209735666-cfca2ccf-78bb-4cdb-9fd4-33748fd8682c.png)
+![image](https://user-images.githubusercontent.com/96210622/209735723-987ae0c3-9618-4531-b72d-352c4a0807c2.png)
+![image](https://user-images.githubusercontent.com/96210622/209735747-8335667c-9759-4459-b227-6ff70837c648.png)
+![image](https://user-images.githubusercontent.com/96210622/209735767-12d532b4-af49-4922-9d7d-70687450db1c.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<br>
+
+## 🛠️ Construído com
+<br>
+<p>
+<img witdh="40px" height="40px" src="https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png">
+<img witdh="40px" height="40px" src="https://th.bing.com/th/id/OIP.RPBz-RMqBFmBnq5q-ls4BwAAAA?pid=ImgDet&rs=1">
+<img witdh="40px" height="40px" src="https://cdn-icons-png.flaticon.com/512/5968/5968381.png">
+<img witdh="40px" height="40px" src="https://user-images.githubusercontent.com/98292838/163856370-844eb1b7-11f6-48cd-abec-21c1da4b38b4.png">
+<img witdh="40px" height="40px" src="https://user-images.githubusercontent.com/98292838/163856432-c20873d2-9b31-412e-92e9-a1f6c609b40c.png">
+<img witdh="40px" height="40px" src="https://user-images.githubusercontent.com/98292838/163856484-18282144-9061-42ee-9691-66c6454b362f.png">
+
+</p>
+
+<h2>
+    <br>
+
