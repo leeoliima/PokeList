@@ -5,7 +5,6 @@ import {
   DataContainer,
 } from "../../styles/stylesPokemonId";
 
-
 export const getStaticPaths = async () => {
   const maxPokemons = 150;
   const api = `https://pokeapi.co/api/v2/pokemon/`;
@@ -15,34 +14,30 @@ export const getStaticPaths = async () => {
   const data = await res.json();
 
   const paths = data.results.map((pokemon: string, index: string) => {
-   
     return {
-      params:  {pokemonId: (index+1).toString()},      
+      params: { pokemonId: (index + 1).toString() },
     };
   });
   return {
     paths,
-   
+
     fallback: false,
   };
 };
 
-export const getStaticProps = async (context:any) => {
+export const getStaticProps = async (context: any) => {
   const id = context.params.pokemonId;
 
-  const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
+  const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${id}`);
 
-  const data = await res.json(); 
+  const data = await res.json();
 
-   return {
-    
-    props: {pokemon: data },
-   
+  return {
+    props: { pokemon: data },
   };
 };
 
-const Pokemon = ({ pokemon }: any, a: any) => {  
-
+const Pokemon = ({ pokemon }: any, a: any) => {
   return (
     <>
       <CardDetails>

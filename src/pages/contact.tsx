@@ -11,17 +11,40 @@ const Contact = () => {
         </p>
         <section>
           <p>
-           
-            <a href="https://github.com/leeoliima">  <Icons src="../assets/icon-github-white.png" alt="icon github" title="Github"  /></a>
+            <a href="https://github.com/leeoliima">
+              <Icons
+                src="../assets/icon-github-white.png"
+                alt="icon github"
+                title="Github"
+              />
+            </a>
           </p>
           <p>
-            <a href="https://www.linkedin.com/in/leandro-lima-s/"> <Icons src="../assets/icon-linkedin-white.png" alt="icon linkedin" title="LinkedIn"/></a>
+            <a href="https://www.linkedin.com/in/leandro-lima-s/">
+              <Icons
+                src="../assets/icon-linkedin-white.png"
+                alt="icon linkedin"
+                title="LinkedIn"
+              />
+            </a>
           </p>
           <p>
-            <a href="https://www.linkedin.com/in/leandro-lima-s/"> <Icons src="../assets/icon-instagram-white.png" alt="icon instagram" title="Instagram"/></a>
+            <a href="https://www.linkedin.com/in/leandro-lima-s/">
+              <Icons
+                src="../assets/icon-instagram-white.png"
+                alt="icon instagram"
+                title="Instagram"
+              />
+            </a>
           </p>
           <p>
-            <a href="mailto: leandrolsadm@gmail.com"> <Icons src="../assets/icon-email-white.png" alt="icon email" title="E-mail"/></a>
+            <a href="mailto: leandrolsadm@gmail.com">
+              <Icons
+                src="../assets/icon-email-white.png"
+                alt="icon email"
+                title="E-mail"
+              />
+            </a>
           </p>
         </section>
 

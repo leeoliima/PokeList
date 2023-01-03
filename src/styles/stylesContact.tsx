@@ -2,15 +2,14 @@ import styled from "styled-components";
 
 export const Image = styled.img`
   width: 150px;
- 
- `;
+`;
 export const Icons = styled.img`
-  width: 50px;  
-  align-items: center;  
+  width: 50px;
+  align-items: center;
   padding-bottom: 2em;
-  :hover{
+  :hover {
     transform: translate(0px, -5%);
-    transition: .4s;
+    transition: 0.4s;
   }
 `;
 
@@ -21,7 +20,6 @@ export const MainStyle = styled.main`
   p {
     padding: 1em;
     font-size: large;
-
   }
   li {
     margin-right: 1.5em;
@@ -35,12 +33,10 @@ export const MainStyle = styled.main`
     color: black;
     cursor: pointer;
   }
-  section{ 
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
-
 `;

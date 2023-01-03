@@ -49,6 +49,5 @@ export const NavLinks = styled.div`
     padding-right: 1.5em;
     color: gainsboro;
     text-decoration: underline;
-
   }
 `;
