@@ -35,7 +35,7 @@ O projeto consiste nos seguintes requisitos:
     <p style="font-weight: bold;"> Link do projeto</p>
 </h2>
 
- ### ➡  [PokeList](http://locallhost)
+ ### ➡  [PokeList](http://poke-list-theta.vercel.app)
 
  <br>
     <p style="color: #D30404; font-weight: bold;"> 📸 Prints das Telas</p>
