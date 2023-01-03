@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Image = styled.img`
   width: 3em;
+  margin: 1em;
   :hover {
     transform: rotate(1turn);
     transition: 0.8s;

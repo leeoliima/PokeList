@@ -10,5 +10,6 @@ export const MainStyle = styled.main`
   text-align: center;
   p {
     padding: 4em;
+    font-size: large;
   }
 `;
